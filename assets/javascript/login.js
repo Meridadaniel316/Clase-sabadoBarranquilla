@@ -21,6 +21,8 @@ function login(){
 
 function validarUsuarioLogeado(dato){
     localStorage.setItem("usuarioLogueado", dato)
+
+    //CREA EL LOCALSTORAGE CON EL NOMBRE USUARIOLOGUEADO
 }
 
 function registro(){
@@ -36,6 +38,8 @@ function registro(){
         });
         array.push(datos);
         localStorage.setItem("usuarios", array);
+
+        //CREA EL LOCALSTORAGE CON EL NOMBRE USUARIOS
     }else{
         alert('Todos los datos son necesarios');
     }

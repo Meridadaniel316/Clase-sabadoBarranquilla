@@ -2,6 +2,8 @@
 let usuarios = JSON.parse(localStorage.getItem("usuarios"));
 let usuarioLogueado = localStorage.getItem("usuarioLogueado");
 
+//LAS DOS PRIMERAS LINEAS OBTIENEN EL LOCALSTORAGE
+
 
 function enviarIniciarSesion() {
    window.location.href="/login.html"
